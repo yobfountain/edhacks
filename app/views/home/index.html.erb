@@ -1,0 +1,29 @@
+<div class="container-full">
+
+      <div class="row">
+       
+        <div class="col-lg-12 text-center v-center">
+          
+          <h1>Education Tools Hackathon</h1>
+          <p class="lead">Building resources for the next generation of learning.</p>
+          
+          <br><br><br>
+          <h1>October 18 - 19, 2014</h1>
+          <%= form_for(@hacker, class: "col-lg-12") do |f| %>
+            <div class="input-group" style="width:340px;text-align:center;margin:0 auto;">
+				<%= f.text_field(:email, class: "form-control input-lg", title: "Don't worry. We hate spam, and will not share your email with anyone.", placeholder: "Enter your email address", type: "text")  %>
+				<span class="input-group-btn">
+					<%= f.submit :OK, class: "btn btn-lg btn-primary" %>
+				</span>
+            </div>
+          <% end %>
+        </div>
+        
+      </div>
+  
+  	<br><br><br><br><br>
+
+</div>
+  
+
+</div>
