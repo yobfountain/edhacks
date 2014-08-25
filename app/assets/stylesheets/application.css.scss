@@ -15,3 +15,75 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  height: 100%;
+  background-color: transparent;
+}
+
+html { 
+  background: image-url("bokeh.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+    color: #FFF;
+    text-shadow: 2px 2px 1px #000;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+.lead {
+	font-size: 30px;
+}
+
+
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  overflow:hidden;
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
+}
+
+.v-center {
+  margin-top:7%;
+}
