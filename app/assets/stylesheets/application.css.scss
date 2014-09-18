@@ -51,6 +51,13 @@ h2 {
 	font-size: 45px;
 }
 
+a {
+  color: inherit;
+  &:hover {
+    color: inherit;
+  }
+}
+
 .lead {
 	font-size: 30px;
 }
