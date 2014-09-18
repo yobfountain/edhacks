@@ -59,6 +59,15 @@ a {
   }
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 .lead {
 	font-size: 30px;
 }
@@ -77,10 +86,6 @@ a {
   text-decoration:none;
 }
 
-.v-center {
-  margin-top:7%;
-}
-
-.content-block {
-  margin-bottom: 85px;
+.row {
+  margin-top: 50px;
 }

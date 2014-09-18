@@ -1,39 +1,39 @@
-<div class="container">
+<div class="container text-center">
 
-  <div class="row">
-
-    <div class="col-lg-12 text-center v-center">
-
-      <% if notice %>
-        <div class="alert alert-success">
-          <%= notice %>
-        </div>
-      <% end %>
-
-      <div class="content-block">
-        <h1>Education Tools<br /> Hackathon</h1>
-        <h3 class="lead">Building resources for the next generation of learning.</h3>
-      </div>
-
-      <div class="content-block">
-        <h2>
-          October 18 - 19, 2014<br/>
-          <a href="http://flatironschool.com/" target="_blank">Flatiron School</a><br/>
-          <a href="http://goo.gl/maps/ArbiA" target="_blank">11 Broadway, NYC</a>
-        </h2>
-        <%= form_for(@hacker, class: "col-lg-12") do |f| %>
-          <div class="input-group" style="width:340px;text-align:center;margin:0 auto;">
-            <%= email_input(f) %>
-            <span class="input-group-btn">
-              <%= f.submit :OK, class: "btn btn-lg btn-primary", disabled: signed_up? %>
-            </span>
-          </div>
-        <% end %>
+  <% if notice %>
+    <div class="row">
+      <div class="alert alert-success">
+        <%= notice %>
       </div>
     </div>
+  <% end %>
 
+  <div class="row">
+    <h1>Education Tools<br /> Hackathon</h1>
+    <h3 class="lead">Building resources for the next generation of learning.</h3>
   </div>
 
-  <br><br><br><br><br>
+  <div class="row">
+    <h2>
+      October 18 - 19, 2014<br/>
+      <a href="http://flatironschool.com/" target="_blank">Flatiron School</a><br/>
+      <a href="http://goo.gl/maps/ArbiA" target="_blank">11 Broadway, NYC</a>
+    </h2>
+    <%= form_for(@hacker, class: "col-lg-12") do |f| %>
+      <div class="input-group" style="width:340px;text-align:center;margin:0 auto;">
+        <%= email_input(f) %>
+        <span class="input-group-btn">
+          <%= f.submit :OK, class: "btn btn-lg btn-primary", disabled: signed_up? %>
+        </span>
+      </div>
+    <% end %>
+  </div>
 
+  <div class="row">
+    <ul>
+      <li>
+        <a href="https://docs.google.com/document/d/1D5DD-aaiCW8MYz_7IR4u2WVEDdK-uzYw3Ya_pd0hdMw/edit?usp=sharing">Project brainstorming</a>
+      </li>
+    </ul>
+  </div>
 </div>
