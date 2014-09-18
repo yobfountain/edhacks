@@ -4,6 +4,8 @@
 body {
   height: 100%;
   background-color: transparent;
+  color: #FFF;
+  text-shadow: 2px 2px 1px #000;
 }
 
 html {
@@ -39,8 +41,6 @@ img.bg {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
-    color: #FFF;
-    text-shadow: 2px 2px 1px #000;
 }
 
 h1 {

@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   devise_for :admins
   resources :hackers, only: [:new, :create]
-  get 'thanks', to: 'home#thanks'
   root 'home#index'
 
   # Example of regular route:
