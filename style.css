@@ -8,7 +8,7 @@ body {
 }
 
 html {
-  background: url("bokeh.jpg") no-repeat center center fixed;
+  background: url("assets/bokeh.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -76,4 +76,14 @@ li {
 
 .row {
   margin-top: 50px;
+}
+
+.logos {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+.logos img {
+  max-height: 150px;
+  max-width: 250px;
 }
