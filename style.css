@@ -78,12 +78,32 @@ li {
   margin-top: 50px;
 }
 
-.logos {
+.sponsors {
   background-color: white;
   border-radius: 5px;
-  padding: 20px;
+  padding: 10px 30px;
 }
-.logos img {
-  max-height: 150px;
-  max-width: 250px;
+.sponsors .row {
+  margin-top: 0;
+}
+.sponsor {
+  width: 100%;
+  height: 125px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.sponsor-littlebits {
+  background-image: url("assets/littlebits.svg");
+}
+.sponsor-onemonth {
+  background-image: url("assets/onemonth.png");
+}
+.sponsor-skillshare {
+  background-image: url("assets/skillshare.svg");
+}
+.sponsor-versal {
+  background-image: url("assets/versal.png");
 }
