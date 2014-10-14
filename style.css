@@ -104,6 +104,9 @@ li {
 .sponsor-littlebits {
   background-image: url("assets/littlebits.svg");
 }
+.sponsor-nycda {
+  background-image: url("assets/nycda.png");
+}
 .sponsor-onemonth {
   background-image: url("assets/onemonth.png");
 }
