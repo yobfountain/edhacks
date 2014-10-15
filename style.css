@@ -126,6 +126,9 @@ li {
 .sponsor-adafruit {
   background-image: url("assets/adafruit.png");
 }
+.sponsor-itp {
+  background-image: url("assets/itp.png");
+}
 .sponsor-littlebits {
   background-image: url("assets/littlebits.svg");
 }
