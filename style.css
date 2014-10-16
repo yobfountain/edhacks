@@ -117,11 +117,16 @@ li {
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
-  height: 125px;
   width: 100%;
 }
+.sponsors-gold .sponsor {
+  height: 125px;
+}
+.sponsors-silver .sponsor {
+  height: 90px;
+}
 @media only screen and (max-width: 768px) {
-  .sponsor {
+  .sponsors .sponsor {
     height: 80px;
     margin: 10px 0;
   }
