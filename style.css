@@ -53,14 +53,18 @@ h2 {
 p {
   font-size: .75em;
 }
-.sponsors a {
-  color: #2F2FB8;
-}
 
 a {
   color: inherit;
 }
 a:hover {
+  color: inherit;
+}
+
+.sponsors a {
+  color: #2F2FB8;
+}
+.sponsors a:hover {
   color: #2F2FB8;
 }
 
