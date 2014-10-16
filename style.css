@@ -80,9 +80,10 @@ li {
 .welcome {
   text-align: left;
 }
-.schedule li {
-  text-align: left;
+.schedule td {
   font-size: .65em;
+  padding-right: 10px;
+  text-align: left;
 }
 
 .lead {
