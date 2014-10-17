@@ -36,14 +36,21 @@ img.bg {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
+  color: #FFF;
 	font-weight: 300;
+  text-shadow: 2px 2px 1px #000;
+}
+.sponsors h1,
+.sponsors h2,
+.sponsors h3,
+.sponsors h4 {
+  color: inherit;
+  text-shadow: none;
 }
 
 h1 {
   font-size: 70px;
-  color: #FFF;
-  text-shadow: 2px 2px 1px #000;
 }
 
 h2 {
