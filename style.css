@@ -166,6 +166,9 @@ li {
 .sponsor-skillshare {
   background-image: url("assets/skillshare.svg");
 }
+.sponsor-thinkful {
+  background-image: url("assets/thinkful.png");
+}
 .sponsor-versal {
   background-image: url("assets/versal.png");
 }
