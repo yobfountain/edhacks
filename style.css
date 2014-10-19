@@ -84,6 +84,14 @@ li {
   list-style-type: none;
 }
 
+.call-to-action {
+  background-color: #960044;
+  border-radius: 8px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .welcome {
   text-align: left;
 }
