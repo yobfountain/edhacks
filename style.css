@@ -94,6 +94,8 @@ li {
 
 .welcome {
   text-align: left;
+  margin-left: .75em;
+  margin-right: .75em;
 }
 .schedule td {
   font-size: .65em;
@@ -145,6 +147,12 @@ li {
     height: 80px;
     margin: 10px 0;
   }
+}
+
+footer {
+  color: white;
+  font-size: .75em;
+  text-shadow: 2px 2px 1px #000;
 }
 
 .sponsor-adafruit {
